@@ -34,5 +34,5 @@
 | Code Snippet | Description |
 | ------------ | ----------- |
 | `alias`   | Is a shortcut to a command `e.g alias server=ssh -p 2299 admin@189.24.5.6` |
-|`alias alias_name=´command_to_run` | To create an alias, `nano ~/.bashrc` , eg. `alias now=date +%F\ %T,n\ then source  ~/.bashrc`, will update the bash |
+|`alias alias_name=´command_to_run` | To create an alias, `nano ~/.bashrc` , eg. `alias now=date +%F\ %T, then source  ~/.bashrc`, will update the bash |
 
