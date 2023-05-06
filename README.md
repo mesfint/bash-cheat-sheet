@@ -16,15 +16,6 @@
 | `chmod 755 file_or_directory` | To set the permissions of a file or directory to a specific octal value, for example, 755 (rwxr-xr-x): |
 | `chmod -R permissions file_or_directory`|To set the permissions of a file or directory recursively, including all files and subdirectories within it: |
 
-
-
-
-
-
-
-
-
-
 ## System Information and Management
 
 | Code Snippet | Description |
@@ -71,6 +62,26 @@
 | `sed 's/old/new/g' file` | Replace all occurrences of `old` with `new` in the file named `file` |
 | `awk '{print $1}' file` | Print the first field of each line in the file named `file` |
 | `cut -d',' -f1 file` | Extract the first column of a CSV file named `file` |
+
+## Search commands from Terminal 
+
+| Code Snippet | Description |
+| --- | --- |
+| `grep pattern file_name` | Search for the specified pattern in the specified file |
+| `grep -r pattern directory_name` | Search for the specified pattern in all files in the specified directory and its subdirectories |
+| `grep -i pattern file_name` | Search for the specified pattern in the specified file, ignoring case |
+| `grep -w pattern file_name` | Search for the specified word as a whole word in the specified file |
+| `find directory_path -name file_name` | Search for files with the specified name in the specified directory and its subdirectories |
+| `find directory_path -type f -mtime +n` | Search for files modified more than n days ago in the specified directory and its subdirectories |
+| `find directory_path -type f -size +n[cwbkMG]` | Search for files larger than n units (cwbkMG) in the specified directory and its subdirectories |
+| `history` | Display the list of commands executed in the current terminal session |
+| `history n` | Display the last n commands executed in the current terminal session |
+| `history -c` | Clear the command history for the current terminal session |
+| `history -a` | Append the commands executed in the current terminal session to the history file |
+| `history -r` | Read the commands from the history file and append them to the current session history |
+| `history | grep pattern` | Search for commands that contain the specified pattern in the current session history |
+
+
 
 ##  Others
 
