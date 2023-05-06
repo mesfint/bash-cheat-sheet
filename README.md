@@ -85,7 +85,7 @@
 
 | Code Snippet | Description |
 | ------------ | ----------- |
-| `#!/bin/bash`   | Its called shebang line for a Bash script, which specifies the interpreter that should be used to run the script. In this case, the shebang line                   specifies that the script should be run using the Bash interpreter, Always in the first line|
+| `#!/bin/bash`   | Its called shebang line for a Bash script, which specifies the interpreter that should be used to run the script. In this case, the shebang line                   specifies that the script should be run using the Bash interpreter. Its Always should be in  first line|
 | `# This is a bash comment` |Single line comment|
 | `: ' Multiple line ' ` | Multiple line comment |
 | `: set nu ` | To insert code line number in Vim editor  |
