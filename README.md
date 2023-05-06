@@ -90,6 +90,7 @@
 | `: ' Multiple line ' ` | Multiple line comment |
 | `: set nu ` | To insert code line number in Vim editor  |
 | `:set nonu  `  | To remove code line number in Vim editor |
+| `set nu  `  |If you want to see  code line number in Vim editor Every time, NB. no colun(:) in this case |
 
 
 ##  Others
