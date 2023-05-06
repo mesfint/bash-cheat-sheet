@@ -1,3 +1,4 @@
+#   THE BOURNE - AGAIN SHELL
 ## File and Directory Management
 
 | Code Snippet | Description |
@@ -19,6 +20,15 @@
 | `kill pid`   | Terminate the process with the specified process ID |
 | `sudo command` | Run the specified command with administrative privileges |
 
+## Shell vs Scripts
+
+| Code Snippet | Description |
+| ------------ | ----------- |
+| `shell`         |Is an interface bn user and kernel |
+| `bash`        |When a user login the bash starts, `bash => name of your shell` |
+| `echo $0`       | To check what shell is active when a user login |
+| `echo $SHELL`   | to see the default shell|
+| `cat /etc/shells` | To see a list of default shells |
 
 ## Commonly Used Bash Commands for Network Management
 
