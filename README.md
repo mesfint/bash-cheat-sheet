@@ -1,5 +1,5 @@
 #   THE BOURNE - AGAIN SHELL
-## File and Directory Management
+## File , Directory and Access Management
 
 | Code Snippet | Description |
 | ------------ | ----------- |
@@ -9,6 +9,22 @@
 | `touch file` | Create a new empty file named `file` |
 | `rm file`    | Delete the file named `file` |
 | `rm -r dir`  | Delete the directory named `dir` and all its contents |
+| `chmod u+rwx file_or_directory ` | To give `read`,`write`, and `execute` permissions to the owner of a file or directory |
+
+| `chmod g+rwx file_or_directory ` | To give read, write, and execute permissions to the group associated with a file or directory: |
+| `chmod a+rwx file_or_directory ` |To give read, write, and execute permissions to all users (i.e. the owner, group, and others): |
+| `chmod a-x file_or_directory ` | To remove execute permission for all users from a file or directory: |
+| `chmod 755 file_or_directory` | To set the permissions of a file or directory to a specific octal value, for example, 755 (rwxr-xr-x): |
+| `chmod -R permissions file_or_directory`|To set the permissions of a file or directory recursively, including all files and subdirectories within it: |
+
+
+
+
+
+
+
+
+
 
 ## System Information and Management
 
