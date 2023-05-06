@@ -10,7 +10,6 @@
 | `rm file`    | Delete the file named `file` |
 | `rm -r dir`  | Delete the directory named `dir` and all its contents |
 | `chmod u+rwx file_or_directory ` | To give `read`,`write`, and `execute` permissions to the owner of a file or directory |
-
 | `chmod g+rwx file_or_directory ` | To give read, write, and execute permissions to the group associated with a file or directory: |
 | `chmod a+rwx file_or_directory ` |To give read, write, and execute permissions to all users (i.e. the owner, group, and others): |
 | `chmod a-x file_or_directory ` | To remove execute permission for all users from a file or directory: |
