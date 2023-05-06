@@ -33,6 +33,6 @@
 
 | Code Snippet | Description |
 | ------------ | ----------- |
-| alias`   |Is a shortcut to a command |
+| alias`   |Is a shortcut to a command `e.g alias server=ssh -p 2299 admin@189.24.5.6` |
 
 
