@@ -19,6 +19,23 @@
 | `kill pid`   | Terminate the process with the specified process ID |
 | `sudo command` | Run the specified command with administrative privileges |
 
+
+## Commonly Used Bash Commands for Network Management
+
+|  Code Snippet | Description |
+| --- | --- |
+| `ping [address]` | Sends an ICMP echo request to a specific network address to test network connectivity. |
+| `traceroute [address]` | Displays the path that packets take to reach a network address, along with the time taken by each hop. |
+| `netstat` | Displays active network connections, routing tables, and related network statistics. |
+| `ifconfig` | Displays the configuration of network interfaces, including IP addresses and network masks. |
+| `route` | Displays and modifies the routing table of the network stack. |
+| `arp` | Displays and modifies the ARP cache, which maps network addresses to physical addresses. |
+| `ssh [user@]host` | Connects to a remote host over the network using the SSH protocol. |
+| `scp [options] [source] [destination]` | Copies files securely between hosts over the network using the SSH protocol. |
+| `wget [URL]` | Downloads files from the network using HTTP, HTTPS, or FTP protocols. |
+| `curl [options] [URL]` | Downloads or uploads data to or from the network using various protocols, including HTTP, HTTPS, FTP, and SCP. |
+
+
 ## Text Processing and Manipulation
 
 | Code Snippet | Description |
