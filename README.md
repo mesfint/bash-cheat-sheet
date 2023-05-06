@@ -81,6 +81,15 @@
 | `history -r` | Read the commands from the history file and append them to the current session history |
 | `history grep pattern` | Search for commands that contain the specified pattern in the current session history |
 
+## Bash in Vim Editor
+
+| Code Snippet | Description |
+| ------------ | ----------- |
+| `#!/bin/bash`   | shebang line for a Bash script, which specifies the interpreter that should be used to run the script. In this case, the shebang line                   specifies that the script should be run using the Bash interpreter:|
+| `# This is a bash comment` |Single line comment|
+| `: ' Multiple line ' ` | Multiple line comment |
+| `: set nu ` | To insert code line number in Vim editor  |
+| `:set nonu '  | To remove code line number in Vim editor |
 
 
 ##  Others
