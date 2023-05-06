@@ -29,3 +29,10 @@
 | `awk '{print $1}' file` | Print the first field of each line in the file named `file` |
 | `cut -d',' -f1 file` | Extract the first column of a CSV file named `file` |
 
+##  Others
+
+| Code Snippet | Description |
+| ------------ | ----------- |
+| alias`   |Is a shortcut to a command |
+
+
