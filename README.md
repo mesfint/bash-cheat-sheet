@@ -89,7 +89,7 @@
 | `# This is a bash comment` |Single line comment|
 | `: ' Multiple line ' ` | Multiple line comment |
 | `: set nu ` | To insert code line number in Vim editor  |
-| `:set nonu ' `  | To remove code line number in Vim editor |
+| `:set nonu  `  | To remove code line number in Vim editor |
 
 
 ##  Others
