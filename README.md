@@ -27,6 +27,7 @@
 | `ping [address]` | Sends an ICMP echo request to a specific network address to test network connectivity. |
 | `traceroute [address]` | Displays the path that packets take to reach a network address, along with the time taken by each hop. |
 | `netstat` | Displays active network connections, routing tables, and related network statistics. |
+| `netstat -tupan` | Display all the active TCP and UDP connections on your system along with the associated process or program name, IP address, and port number. |
 | `ifconfig` | Displays the configuration of network interfaces, including IP addresses and network masks. |
 | `route` | Displays and modifies the routing table of the network stack. |
 | `arp` | Displays and modifies the ARP cache, which maps network addresses to physical addresses. |
