@@ -4,7 +4,11 @@
 | Code Snippet | Description |
 | ------------ | ----------- |
 | `ls`         | List the files and directories in the current directory |
+| `man ls`     | Gives you more specific user guide/manual with the command `man` by giving the program name as argument |
 | `cd dir/`    | Change directory to the directory named `dir` |
+| `pwd`        |print working directory,In Linux the home folder of a user is usually located in `/home/user/`, and in MacOS it’s in `/Users/user/` |
+| `~`          |It referes to users home directory, e.g  the Downloads folder in Linux would be either `/home/user/Downloads` or `~/Downloads` |
+| `. or ..`    |Dots are often used in relative paths. `One dot .` refers to the current folder, and `two dots ..` refers to the folder the current         folder is in |
 | `mkdir dir`  | Create a new directory named `dir` |
 | `touch file` | Create a new empty file named `file` |
 | `rm file`    | Delete the file named `file` |
@@ -16,6 +20,21 @@
 | `chmod 755 file_or_directory` | To set the permissions of a file or directory to a specific octal value, for example, 755 (rwxr-xr-x): |
 | `chmod -R permissions file_or_directory`|To set the permissions of a file or directory recursively, including all files and subdirectories within it: |
 
+## Moving and Renaming files
+
+| Code Snippet | Description |
+| ------------ | ----------- |
+| `cp`         | `cp (copy)` It takes the path to the file to be copied and the target path as arguments |
+| `cp example.txt example2.txt`        |copies the file example.txt as a file called example2.txt in the current folder. |
+| `cp example.txt ~/Documents/example2.txt`       | copies the file `example.txt` to the Documents folder and renames it to `example2.txt` |
+| `cp example.txt ~/Documents/`   | `copies` the file to Documents and keeps the name as `example.txt` |
+| `mv exmple.txt example.txt` | Renames the file exmple.txt to example.txt. |
+| `mv example.txt ~` | Moves the file `example.txt` from the current folder to the `home folder`.|
+| `mv exmple.txt ~/example.txt` | renames the file `exmple.txt` from the `current folder to example.txt and moves it to the home folder`. |
+| `mv ~/example.txt ~/Downloads/` | moves the file `example.txt` from the `home folder to the Downloads folder`.
+
+|
+
 ## System Information and Management
 
 | Code Snippet | Description |
@@ -25,6 +44,7 @@
 | `htop`       | Interactive process viewer, similar to `top` |
 | `kill pid`   | Terminate the process with the specified process ID |
 | `sudo command` | Run the specified command with administrative privileges |
+
 
 ## Shell vs Scripts
 
