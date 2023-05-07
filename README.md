@@ -92,6 +92,8 @@
 | `sed 's/old/new/g' file` | Replace all occurrences of `old` with `new` in the file named `file` |
 | `awk '{print $1}' file` | Print the first field of each line in the file named `file` |
 | `cut -d',' -f1 file` | Extract the first column of a CSV file named `file` |
+| `>`  | writing outputs to files , also overwrites the contents of the file with the given text|
+| `>>`  | appends the new content  to a new line, not affecting the old contents. like `>`|
 
 ## Search commands from Terminal 
 
@@ -102,9 +104,7 @@
 | `grep -i  "unix" linux.txt`  | Search for "unix" text in the linux file, ignoring case |
  `grep  U* linux.txt `  | Search for text  in the linux file, that begins with uppre case `U` |
 | `|` | usually called the `pipe`. With the pipe you can do more complicated operations which require several programs with just one line. `~/example$ ls | grep note` An example of using a `pipe` is to pass the output of `ls` to `grep` in order to filter out specific filenames:|
-| `>`  | writing outputs to files , also overwrites the contents of the file with the given text|
 | `grep -i  u* linux.txt > result.txt`  | Write all the outputs from left side into right side file, creating the file if it doesn’t already exist.|
-| `>>`  | appends the new content  to a new line, not affecting the old contents. like `>`|
 | `grep -w pattern file_name` | Search for the specified word as a whole word in the specified file |
 | `find directory_path -name file_name` | Search for files with the specified name in the specified directory and its subdirectories |
 | `find directory_path -type f -mtime +n` | Search for files modified more than n days ago in the specified directory and its subdirectories |
