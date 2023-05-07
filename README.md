@@ -35,6 +35,16 @@
 | `rm -r  CS2` or `rm -r -f CS2` |  would remove the directory named "CS2" and all its contents without prompting for confirmation.`-r` stands for `recursive` and will remove all directories and files within the specified directory
 `-f` stands for `force` and will not prompt for confirmation before removing files or directories, It's important to use this command with caution|
 
+## Wild Cards
+### Wild cards allow one to perform operations on several files at the same time.
+
+| Code Snippet | Description |
+| ------------ | ----------- |
+| `*`         | It  corresponds to any amount of any given symbol. |
+| `mv *.txt example/` | moves all the files in the current directory ending with `.txt` to a folder caller `example` |
+| `mv test* tests/`       | would move all the files starting with test to a folder called `tests`. |
+
+
 ## System Information and Management
 
 | Code Snippet | Description |
