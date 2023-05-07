@@ -31,9 +31,9 @@
 | `mv exmple.txt example.txt` | Renames the file exmple.txt to example.txt. |
 | `mv example.txt ~` | Moves the file `example.txt` from the current folder to the `home folder`.|
 | `mv exmple.txt ~/example.txt` | renames the file `exmple.txt` from the `current folder to example.txt and moves it to the home folder`. |
-| `mv ~/example.txt ~/Downloads/` | moves the file `example.txt` from the `home folder to the Downloads folder`.
-
-|
+| `mv ~/example.txt ~/Downloads/` | moves the file `example.txt` from the `home folder to the Downloads folder`. |
+| `rm -r  CS2` |  would remove the directory named "CS2" and all its contents without prompting for confirmation.`-r` stands for `recursive` and will remove all directories and files within the specified directory
+`-f` stands for `force` and will not prompt for confirmation before removing files or directories, It's important to use this command with caution|
 
 ## System Information and Management
 
