@@ -94,6 +94,8 @@
 | `cut -d',' -f1 file` | Extract the first column of a CSV file named `file` |
 | `>`  | writing outputs to files , also overwrites the contents of the file with the given text|
 | `>>`  | appends the new content  to a new line, not affecting the old contents. like `>`|
+| `wc -l countLinus.txt `  | The wc command is used to find the `number of lines, characters, words, and bytes of a file`|
+
 
 ## Search commands from Terminal 
 
