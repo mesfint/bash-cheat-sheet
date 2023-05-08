@@ -131,6 +131,17 @@
 | `chmod +x first_script.sh` | Run Bash on Terminal, always add execution Permission |
 
 
+## Environment Variables(env)
+
+| Code Snippet | Description |
+| ------------ | ----------- |
+| `env`         | It will print a list of all environment variables and their values, It also displays the current environment variables for the current shell session |
+| `env less`    | Command is a text pager that allows you to view long text files or command output one page at a time. |
+| `htop`       | Interactive process viewer, similar to `top` |
+| `kill pid`   | Terminate the process with the specified process ID |
+| `sudo command` | Run the specified command with administrative privileges |
+
+
 ##  Others
 
 | Code Snippet | Description |
