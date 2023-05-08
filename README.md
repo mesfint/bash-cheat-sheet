@@ -137,9 +137,10 @@
 | ------------ | ----------- |
 | `env`         | It will print a list of all environment variables and their values, It also displays the current environment variables for the current shell session |
 | `env less`    | Command is a text pager that allows you to view long text files or command output one page at a time. |
-| `htop`       | Interactive process viewer, similar to `top` |
-| `kill pid`   | Terminate the process with the specified process ID |
-| `sudo command` | Run the specified command with administrative privileges |
+| ` env | grep user |Search for user |
+| `printenv or printenv HOME`   | Prints only the specified environment variable  |
+| `printenv SHELL LC_TIME PWD` | prints the values accordingly |
+| `set  | grep HIST` | Search valriables |
 
 
 ##  Others
