@@ -37,6 +37,7 @@
 | `a`         | All  | evertything above |
 
 ## Common Unix commands
+
 | Code Snippet  | Description |
 | ------------ | ----------- |
 | `cal`          |Show Calender |
