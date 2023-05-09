@@ -70,6 +70,7 @@
 | `cp example.txt example2.txt`        |copies the file example.txt as a file called example2.txt in the current folder. |
 | `cp example.txt ~/Documents/example2.txt`       | copies the file `example.txt` to the Documents folder and renames it to `example2.txt` |
 | `cp example.txt ~/Documents/`   | `copies` the file to Documents and keeps the name as `example.txt` |
+| `cp -R testFolder2/ testForlder/`   | `copies` the folder2 to `folder`  |
 | `mv exmple.txt example.txt` | Renames the file exmple.txt to example.txt. |
 | `mv example.txt ~` | Moves the file `example.txt` from the current folder to the `home folder`.|
 | `mv exmple.txt ~/example.txt` | renames the file `exmple.txt` from the `current folder to example.txt and moves it to the home folder`. |
