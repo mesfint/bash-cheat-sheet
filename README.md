@@ -19,15 +19,16 @@
 | `chmod a-x file_or_directory ` | To remove execute permission for all users from a file or directory: |
 | `chmod 755 file_or_directory` | To set the permissions of a file or directory to a specific octal value, for example, 755 (rwxr-xr-x): |
 | `chmod -R permissions file_or_directory`|To set the permissions of a file or directory recursively, including all files and subdirectories within it: |
+
 ## Unix file system
 
 | Code Snippet | Description |
 | ------------ | ----------- |
-| `ps`         | List the currently running processes |
-| `top`        | Display real-time system information, including CPU usage and memory usage |
-| `htop`       | Interactive process viewer, similar to `top` |
-| `kill pid`   | Terminate the process with the specified process ID |
-| `sudo command` | Run the specified command with administrative privileges |
+| `/`         | List the currently running processes |
+| `bin`        | Display real-time system information, including CPU usage and memory usage |
+| `dev`       | Interactive process viewer, similar to `top` |
+| `etc`   | Terminate the process with the specified process ID |
+| `home` | Run the specified command with administrative privileges |
 
 ## Moving and Renaming files
 
