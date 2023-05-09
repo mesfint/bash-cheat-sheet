@@ -44,6 +44,8 @@
 | `/`         |Root of the file system |
 | `/bin`        | Binary - containing executable programs(such as ls,cp) |
 | `/dev`       | Devices - containing files represeting devices |
+| `/dev/null`       |If you dont want to show the output you can send it to /dev/null, ` ls -l jfdkjfd 2>/dev/null
+` the error message will go to the null file |
 | `/etc`   | Containing system configurations & databases|
 | `/home` |Home directory for users |
 | `/lib` |Containing system libraries & device drivers |
