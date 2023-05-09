@@ -163,7 +163,8 @@
 | `chmod +x first_script.sh` | Run Bash on Terminal, always add execution Permission |
 
 ## Standard Streams
-![standard Image](standard stream](https://github.com/mesfint/bash-cheat-sheet/blob/main/standardStreams.png)
+![standard Image](https://github.com/mesfint/bash-cheat-sheet/blob/main/standardStreams.png)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
 
 ## Environment Variables(env)
