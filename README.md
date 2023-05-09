@@ -27,6 +27,7 @@
 | `Read`         | 4 | r |
 | `Write`         | 2 | w |
 | `Execute`         | 1 | x |
+
 ## Classes of users
 | Shorthand | Class | Description |
 | ------------ | ----------- |  ----------- |
@@ -35,6 +36,15 @@
 | `o`         | Others | All other users |
 | `a`         | All  | evertything above |
 
+## Common Unix commands
+| Code Snippet  | Description |
+| ------------ | ----------- |
+| `cal`          |Show Calender |
+| `clear`         | clear screen |
+| `wc`         |Count number of lines, characters, words etc `wc /tmp/test.txt` |
+| `whoami`         | Print current user name |
+| `uname`         | Show system Information `uname -a`|
+| `df `         | get Information about disk usage capacity `df -h` |
 
 
 ## Unix file system
