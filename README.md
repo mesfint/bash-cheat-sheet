@@ -138,7 +138,7 @@
 | `grep pattern file_name` | Search for the specified pattern in the specified file |
 | `grep -r pattern directory_name` | Search for the specified pattern in all files in the specified directory and its subdirectories |
 | `grep -i  "unix" linux.txt`  | Search for "unix" text in the linux file, ignoring case |
- `grep  U* linux.txt `  | Search for text  in the linux file, that begins with uppre case `U` |
+| `grep  U* linux.txt `  | Search for text  in the linux file, that begins with uppre case `U` |
 | `|` | usually called the `pipe`. With the pipe you can do more complicated operations which require several programs with just one line. `~/example$ ls | grep note` An example of using a `pipe` is to pass the output of `ls` to `grep` in order to filter out specific filenames:|
 | `grep -i  u* linux.txt > result.txt`  | Write all the outputs from left side into right side file, creating the file if it doesn’t already exist.|
 | `grep -w pattern file_name` | Search for the specified word as a whole word in the specified file |
