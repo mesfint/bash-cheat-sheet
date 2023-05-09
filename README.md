@@ -44,7 +44,7 @@
 | `/`         |Root of the file system |
 | `/bin`        | Binary - containing executable programs(such as ls,cp) |
 | `/dev`       | Devices - containing files represeting devices |
-| `/dev/null`  | If you dont want to show the output you can send it to /dev/null, ` ls -l jfdkjfd 2>/dev/null` the error message will go to the null file which will descarded, ` ls -l >/dev/null` this is a correct message will go also to null file |
+| `/dev/null`  | If you dont want to show the output you can send it to /dev/null, ` ls -l jfdkjfd 2>/dev/null` (2 & 1 means using the same target for both output & error streams, /dev/null is a null file) the error message will go to the null file which will descarded, ` ls -l >/dev/null` this is a correct message will go also to null file |
 | `/etc`   | Containing system configurations & databases|
 | `/home` |Home directory for users |
 | `/lib` |Containing system libraries & device drivers |
