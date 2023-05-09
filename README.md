@@ -24,11 +24,14 @@
 
 | Code Snippet | Description |
 | ------------ | ----------- |
-| `/`         | List the currently running processes |
-| `bin`        | Display real-time system information, including CPU usage and memory usage |
-| `dev`       | Interactive process viewer, similar to `top` |
-| `etc`   | Terminate the process with the specified process ID |
-| `home` | Run the specified command with administrative privileges |
+| `/`         |Root of the file system |
+| `/bin`        | Binary - containing executable programs(such as ls,cp) |
+| `/dev`       | Devices - containing files represeting devices |
+| `/etc`   | Containing system configurations & databases|
+| `/home` |Home directory for users |
+| `/lib` |Containing system libraries & device drivers |
+| `/tmp` | For temprary files |
+| `/usr` | Containing non system-critical libraries, executables |
 
 ## Moving and Renaming files
 
