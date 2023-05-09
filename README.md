@@ -86,7 +86,7 @@
 | `kill pid`   | Terminate the process with the specified process ID |
 | `sudo command` | Run the specified command with administrative privileges |
 | `ps -ax`  "|" `less` | View and navigate long file |
-| `ps -ax` '|' `grep` `/usr/local/bin/node` '|' `awk {print $1}` | Print process ID (pid) of node programs|
+| `ps -ax  | grep /usr/local/bin/node | awk {print $1}` | Print process ID (pid) of node programs|
 
 
 ## Shell vs Scripts
