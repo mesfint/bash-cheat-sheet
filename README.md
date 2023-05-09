@@ -20,6 +20,23 @@
 | `chmod 755 file_or_directory` | To set the permissions of a file or directory to a specific octal value, for example, 755 (rwxr-xr-x): |
 | `chmod -R permissions file_or_directory`|To set the permissions of a file or directory recursively, including all files and subdirectories within it: |
 
+##  File Mods(permissions)
+
+| Mod | Value | Shorthand |
+| ------------ | ----------- |  ----------- |
+| `Read`         | 4 | r |
+| `Write`         | 2 | w |
+| `Execute`         | 1 | x |
+## Classes of users
+| Shorthand | Class | Description |
+| ------------ | ----------- |  ----------- |
+| `u`         | Owner /user | Who own the file |
+| `g`         | Group | users in the file's group |
+| `o`         | Others | All other users |
+| `a`         | All  | evertything above |
+
+
+
 ## Unix file system
 
 | Code Snippet | Description |
