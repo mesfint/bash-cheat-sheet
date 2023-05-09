@@ -163,7 +163,7 @@
 | `chmod +x first_script.sh` | Run Bash on Terminal, always add execution Permission |
 
 ## Standard Streams
-[https://github.com/mesfint/bash-cheat-sheet/blob/main/standardStreams.png]
+![https://github.com/mesfint/bash-cheat-sheet/blob/main/standardStreams.png](standard stream)
 
 
 ## Environment Variables(env)
