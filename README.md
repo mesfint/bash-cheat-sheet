@@ -85,8 +85,8 @@
 | `htop`       | Interactive process viewer, similar to `top` |
 | `kill pid`   | Terminate the process with the specified process ID |
 | `sudo command` | Run the specified command with administrative privileges |
-| `ps -ax  | less` | View and navigate long file |
-| `ps -ax  | grep /usr/local/bin/node | awk {print $1}` | Print process ID (pid) of node programs|
+| `ps -ax  \| less` | View and navigate long file |
+| `ps -ax  \| grep /usr/local/bin/node \| awk {print $1}` | Print process ID (pid) of node programs|
 
 
 ## Shell vs Scripts
@@ -176,10 +176,10 @@
 | ------------ | ----------- |
 | `env`         | It will print a list of all environment variables and their values, It also displays the current environment variables for the current shell session |
 | `env less`    | Command is a text pager that allows you to view long text files or command output one page at a time. |
-| ` env | grep user |Search for user |
+| ` env ` \| `grep user` |Search for user |
 | `printenv or printenv HOME`   | Prints only the specified environment variable  |
 | `printenv SHELL LC_TIME PWD` | prints the values accordingly |
-| `set  | grep HIST` | Search valriables |
+| `set`  \| `grep HIST` | Search valriables |
 
 
 ##  Others
