@@ -142,7 +142,7 @@
 | '|' | usually called the `pipe`. With the pipe you can do more complicated operations which require several programs with just one line. `~/example$ ls | grep note` An example of using a `pipe` is to pass the output of `ls` to `grep` in order to filter out specific filenames:|
 | `grep -i  u* linux.txt > result.txt`  | Write all the outputs from left side into right side file, creating the file if it doesn’t already exist.|
 | `grep -w pattern file_name` | Search for the specified word as a whole word in the specified file |
-| `ps -ax` | `grep /usr/local/bin/node | awk '{print $1}' > ./pids.txt` | What this command does? |
+|`ps -ax \| grep /usr/local/bin/node \| awk '{print $1}' > ./pids.txt` | What this command does? |
 | `find directory_path -name file_name` | Search for files with the specified name in the specified directory and its subdirectories |
 | `find directory_path -type f -mtime +n` | Search for files modified more than n days ago in the specified directory and its subdirectories |
 | `find directory_path -type f -size +n[cwbkMG]` | Search for files larger than n units (cwbkMG) in the specified directory and its subdirectories |
