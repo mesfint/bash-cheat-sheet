@@ -166,6 +166,8 @@
 | `history -a` | Append the commands executed in the current terminal session to the history file |
 | `history -r` | Read the commands from the history file and append them to the current session history |
 | `history grep pattern` | Search for commands that contain the specified pattern in the current session history |
+| `ls .bash_history ` | get history file|
+| `cat .bash_history ` | display list of history command|
 | `ctr + r` | Search  commands In the Terminal |
 
 
@@ -191,6 +193,17 @@
 | Code Snippet | Description |
 | ------------ | ----------- |
 | `env`         | It will print a list of all environment variables and their values, It also displays the current environment variables for the current shell session |
+| `env less`    | Command is a text pager that allows you to view long text files or command output one page at a time. |
+| ` env ` \| `grep user` |Search for user |
+| `printenv or printenv HOME`   | Prints only the specified environment variable  |
+| `printenv SHELL LC_TIME PWD` | prints the values accordingly |
+| `set`  \| `grep HIST` | Search valriables |
+
+## Install packages / softwares in Linux environment
+
+| Code Snippet | Description |
+| ------------ | ----------- |
+| `apt`         |  |
 | `env less`    | Command is a text pager that allows you to view long text files or command output one page at a time. |
 | ` env ` \| `grep user` |Search for user |
 | `printenv or printenv HOME`   | Prints only the specified environment variable  |
