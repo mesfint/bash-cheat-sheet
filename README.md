@@ -164,6 +164,8 @@
 | `history -a` | Append the commands executed in the current terminal session to the history file |
 | `history -r` | Read the commands from the history file and append them to the current session history |
 | `history grep pattern` | Search for commands that contain the specified pattern in the current session history |
+| `ctr + r` | Type the commands you are looking for inside the terminal... |
+
 
 ## Bash in Vim Editor
 
