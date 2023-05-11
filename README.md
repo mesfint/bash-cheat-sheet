@@ -95,6 +95,8 @@
 | `ps`         | List the currently running processes |
 | `top`        | Display real-time system information, including CPU usage and memory usage |
 | `htop`       | Interactive process viewer, similar to `top` |
+| `lscpu`       | Check CPU Information |
+| `lsmem`       | Check Memory(RAM) Information |
 | `kill pid`   | Terminate the process with the specified process ID |
 | `sudo command` | Run the specified command with administrative privileges |
 | `ps -ax  \| less` | View and navigate long file |
@@ -164,7 +166,7 @@
 | `history -a` | Append the commands executed in the current terminal session to the history file |
 | `history -r` | Read the commands from the history file and append them to the current session history |
 | `history grep pattern` | Search for commands that contain the specified pattern in the current session history |
-| `ctr + r` | Type the commands you are looking for inside the terminal... |
+| `ctr + r` | Search  commands In the Terminal |
 
 
 ## Bash in Vim Editor
